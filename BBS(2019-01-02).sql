@@ -43,3 +43,6 @@ INSERT INTO tbl_bbs_main
     VALUES (SEQ_BBS_MAIN.nextval , '2019-01-02', '임꺽정', '신년입니다.', '기해년 행운이 깃들길 빕니다.');
 INSERT INTO tbl_bbs_main
     VALUES (SEQ_BBS_MAIN.nextval , '2019-01-02', '이종환', '안녕하세요.', '반갑습니다.');    
+    
+CREATE USER gradeUser IDENTIFIED BY 1234;
+GRANT dba TO 
